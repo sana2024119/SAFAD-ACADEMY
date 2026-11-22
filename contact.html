@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>SAFAD Academy | Registration</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-cream">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"> SAFAD<span>.</span> </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="courses.html">Courses</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="details.html">Details</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Contact Introduction -->
+    <section class="registration-hero contact-page-hero">
+      <div class="container">
+        <p class="subtitle">YOUR JOURNEY STARTS HERE</p>
+
+        <h1>Let's Begin Something Great.</h1>
+
+        <p>
+          Take the first step towards your future. Choose your path and grow
+          with SAFAD Academy.
+        </p>
+      </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section class="registration-section">
+      <div class="container">
+        <div class="row g-5 align-items-start">
+          <!-- Left Information -->
+          <div class="col-lg-5">
+            <div class="registration-info">
+              <p class="subtitle">JOIN SAFAD ACADEMY</p>
+
+              <h2>Invest in Your Knowledge.</h2>
+
+              <p class="registration-description">
+                Every new skill opens a new opportunity. Tell us a little about
+                yourself and the course you would like to explore.
+              </p>
+
+              <div class="registration-benefit">
+                <span>01</span>
+                <div>
+                  <h5>Learn New Skills</h5>
+                  <p>Explore practical technology courses.</p>
+                </div>
+              </div>
+
+              <div class="registration-benefit">
+                <span>02</span>
+                <div>
+                  <h5>Build Your Future</h5>
+                  <p>Develop knowledge for tomorrow's world.</p>
+                </div>
+              </div>
+
+              <div class="registration-benefit">
+                <span>03</span>
+                <div>
+                  <h5>Grow With Confidence</h5>
+                  <p>Take the next step in your learning journey.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Registration Form -->
+          <div class="col-lg-7">
+            <div class="registration-card">
+              <p class="subtitle">REGISTRATION</p>
+
+              <h2>Registration Form</h2>
+
+              <p class="form-intro">Please complete the information below.</p>
+
+              <form id="registrationForm">
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <label class="form-label" for="fullName"> Full Name </label>
+
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="fullName"
+                      name="fullName"
+                      placeholder="Your full name"
+                      required
+                    />
+                  </div>
+
+                  <div class="col-md-6 mb-4">
+                    <label class="form-label" for="email">
+                      Email Address
+                    </label>
+
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      name="email"
+                      placeholder="Your email address"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="mb-4">
+                  <label class="form-label" for="phone"> Phone Number </label>
+
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="phone"
+                    name="phone"
+                    placeholder="Your phone number"
+                    required
+                  />
+                </div>
+
+                <div class="mb-4">
+                  <label class="form-label" for="course">
+                    Choose Your Course
+                  </label>
+
+                  <select
+                    class="form-select"
+                    id="course"
+                    name="course"
+                    required
+                  >
+                    <option value="">Select a course</option>
+                    <option value="Web Development">Web Development</option>
+                    <option value="Python Programming">
+                      Python Programming
+                    </option>
+                    <option value="Artificial Intelligence">
+                      Artificial Intelligence
+                    </option>
+                    <option value="Cybersecurity">Cybersecurity</option>
+                    <option value="UI/UX Design">UI/UX Design</option>
+                    <option value="Data Analytics">Data Analytics</option>
+                  </select>
+                </div>
+
+                <div class="mb-4">
+                  <label class="form-label" for="message"> Your Message </label>
+
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    name="message"
+                    rows="4"
+                    placeholder="Tell us anything you would like us to know..."
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-main w-100">
+                  Submit Registration
+                </button>
+
+                <p id="formMessage" class="text-center mt-3"></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-center">
+        <h4>SAFAD ACADEMY</h4>
+
+        <p>Learn. Innovate. Lead.</p>
+
+        <p>© 2026 SAFAD Academy. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
