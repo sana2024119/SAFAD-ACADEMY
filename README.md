@@ -1,4 +1,4 @@
-# SAFAD-ACADEMY# 
+# SAFAD ACADEMY
 
 ### Learn. Innovate. Lead.
 
